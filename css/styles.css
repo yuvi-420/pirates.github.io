@@ -1,0 +1,96 @@
+/*
+Student Name: Lakhwinder  Singh
+File Name: styles.css for 3 column layout
+Date: 02/25/2021
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, h1, h2 {
+    margin:0;
+    padding:0;
+    border:0;
+    font-family: 'Dancing Script', cursive;
+   
+}
+body {
+    padding: 2%;
+    background-color: #d1d1e0;
+}
+
+/* Style rule for header content */
+header h1 {
+    text-align: center;
+    font-size: 3em;
+    padding: 3%;
+    color: #47476b;
+}
+
+/* Style rules for navigation area */
+nav {
+    background-color: #47476b;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 1.5em;
+   
+    font-weight: bold;
+}
+
+nav li a {
+    display: block;
+    color: #e3eaf8;
+    padding: 0.5em 2em;
+    text-decoration: none;
+}
+nav li a:hover{
+    color:orange;
+    text-transform: uppercase;
+    text-shadow: orchid;
+}
+
+/* Style rules for main content */
+main {
+    padding: 2%;
+    font-family: Geneva, Arial, sans-serif;
+    overflow: auto;
+}
+
+main p {
+    font-size: 1.25em;
+}
+h1,h2{
+    color:purple;
+}
+p{
+    color: rgb(30, 89, 218);
+    font-size: 30px;
+    font-family:'Dancing Script', cursive;
+}
+
+#column1, #column2, #column3 {
+    width:30%;
+    float: left;
+    padding:0 1%;
+    margin:0.5%;
+}
+
+/* Style rules for footer content */
+footer {
+    text-align: center;
+    font-size: 0.85em;
+    color: #47476b;
+    padding: 1% 0;
+    clear: left;
+    border-top: 3px solid #47476b;
+}
+p img{
+    width:100%;
+    border:solid orange;
+}
